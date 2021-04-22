@@ -1,0 +1,51 @@
+h1{color:red;
+background-color:#91C819;
+}
+
+body{margin:0px;
+background-color:#C082C0;
+}
+
+img{border:solid black;
+}
+
+.header{
+    display:flex;
+    justify-content:space-between;
+    font-size:20px;
+    font-family:sans-serif;
+    font-weight:400;    
+    }
+
+.grid{
+     display:flex;
+     margin:40px;
+     flex-wrap:wrap;
+    font-family:sans-serif;
+}
+
+.origami{
+    background-color:#FFFFFF;
+    margin:25px;
+    padding:30px;
+    font-family:fantasy;
+}
+a:link{
+    color:white;
+}
+a:visited{
+    color:white;
+}
+.origami:hover{
+    transform:scale(1,2);
+}
+.bodyimg{
+   position:relative;
+}
+.bodyimg p{
+    font-size:40px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
